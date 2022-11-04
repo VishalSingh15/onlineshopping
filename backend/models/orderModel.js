@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+//created order schema
 const orderSchema = new mongoose.Schema({
   shippingInfo: {
     address: {
